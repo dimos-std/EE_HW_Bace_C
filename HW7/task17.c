@@ -11,7 +11,6 @@ int akkerman(int m, int n)
     return akkerman(m - 1, 1);
   else
     return akkerman(m - 1, akkerman(m, n - 1));
-
 }
 
 int main(void)

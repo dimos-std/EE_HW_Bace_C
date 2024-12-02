@@ -7,7 +7,6 @@
 void print_forw_or_rev(int a, int b)
 {
   if (a < b){
-    if (b > a)
       print_forw_or_rev(a, b-1);
     printf("%d ", b);
   }
